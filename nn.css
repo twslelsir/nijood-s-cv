@@ -1,0 +1,104 @@
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+.profile-picture{
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
+.profile-picture img{
+    width: 100%;
+    height: 100vmax;
+    border: black solid 5px;
+}
+.profile-info{
+    width: 55%;
+    height: 100%;
+    padding:10px 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar{
+    width: 0px;
+}
+.about{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.experiences{
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    margin: 2%;
+    padding: 15px 15px;
+    background-color: #fff;
+    color: black;
+    border :black solid 3px;
+}
+.experiences img{
+    width: 90px;
+    height: 80px;
+    border :black solid 3px;
+
+}
+small{
+    padding-top: 10px;
+    display: block;
+}
+.certificates img{
+display: inline-block;
+width: 25%;
+height: 40%;
+margin-right: 10px;
+margin-left: 20px;
+border :black solid 3px;
+
+}
+.form{
+    margin-top: 5px;
+}
+.input-group input{
+    width: 45%;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 5px;
+    outline: none;
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+}
+textarea{
+    width: 93%;
+    border: solid black 2px;
+    margin: 2px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    color: black;
+}
+.submit-btn{
+    border: solid rgb(11, 12, 15) 2px;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: rgba(54, 11, 247, 0.884);
+    color: black;  
+    pointer-events:visibleStroke;
+}
+.contact img{
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 7px;
+
+}
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 7px;
+    }
